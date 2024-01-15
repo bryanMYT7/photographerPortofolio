@@ -1,0 +1,111 @@
+/* prestations.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+header {
+    width: 100%;
+    background-image: url("/Assets/images/camera-1130731_1280.jpg");
+    z-index: 1000;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+.itemHome {
+    color: black;
+}
+
+.header-title {
+    margin-top: 70px;
+
+}
+
+/* Additional styling for the horizontal title */
+.header-title h1 {
+    font-size: 2em;
+    margin: 0;
+    text-align: center; /* Center the horizontal title */
+    color:white;
+}
+
+/* Additional styling for the vertical title */
+.header-title h1.vertical-title {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    text-align: left; /* Adjust as needed based on your design */
+    color: white;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+.prestation {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: white;
+}
+
+.prestation:hover {
+    background-color: #f8f9fa;
+}
+
+.prestation h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.prestation p {
+    margin-bottom: 15px;
+}
+
+.price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/*Footer*/
+footer {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* Text color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the social media icons */
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff; /* Icon color */
+    margin: 0 10px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
